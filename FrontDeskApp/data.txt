@@ -1,0 +1,19 @@
+insert into Storage_Repository(facility_name) values("Facility_1");
+insert into Storage_Repository(facility_name) values("Facility_2");
+insert into Storage_Repository(facility_name) values("Facility_3");
+
+insert into Package(package_type) VALUES ("Small");
+insert into Package(package_type) VALUES ("Medium");
+insert into Package(package_type) VALUES ("Large");
+
+
+insert into storage_availability(facility_id, storage_type, storage_availability) values(1,"Small",15);
+insert into storage_availability(facility_id, storage_type, storage_availability) values(1,"Medium",10);
+insert into storage_availability(facility_id, storage_type, storage_availability) values(1,"Large",12);
+
+insert into storage_availability(facility_id, storage_type, storage_availability) values(2,"Small",25);
+insert into storage_availability(facility_id, storage_type, storage_availability) values(2,"Medium",20);
+insert into storage_availability(facility_id, storage_type, storage_availability) values(2,"Large",15);
+
+insert into storage_availability(facility_id, storage_type, storage_availability) values(3,"Medium",10);
+insert into storage_availability(facility_id, storage_type, storage_availability) values(3,"Large",12);

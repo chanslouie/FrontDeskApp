@@ -1,0 +1,2 @@
+Created on 2023/08/30 01:28:44 customer_id: 1, packageType: Medium, quantity: 3
+Created on 2023/08/30 01:29:20 customer_id: 2, packageType: Large, quantity: 5
